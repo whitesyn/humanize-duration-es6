@@ -1,0 +1,43 @@
+{
+  "name": "humanize-duration-es6",
+  "author": "Victor Kuznetsov <kuznetsov.vic@gmail.com> (https://github.com/whitesyn)",
+  "contributors": [
+    "Victor Kuznetsov (https://github.com/whitesyn)"
+  ],
+  "version": "1.0.0",
+  "description": "ES6 library to convert millisecond durations to human-readable text.",
+  "homepage": "https://github.com/whitesyn/humanize-duration-es6",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "mocha --compilers js:babel-core/register"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "csv-parse": "^1.1.7",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "mocha": "^3.2.0"
+  },
+  "keywords": [
+    "humanize",
+    "duration",
+    "time",
+    "hours",
+    "minutes",
+    "seconds",
+    "days",
+    "years",
+    "months"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/whitesyn/humanize-duration-es6.git"
+  },
+  "bugs": "https://github.com/whitesyn/humanize-duration-es6/issues",
+  "license": "Unlicense"
+}
